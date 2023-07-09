@@ -1,10 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<body>
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+
+<body style="max-width: 500px; margin: auto;">
+    <header>
+        <h1>Andrew Johnson</h1>
+        <img src="randon_gay.jpg" alt="my-photo" style="width: 200px; border-radius: 50%;">
+        <nav class="menu">
+            <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about_me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code_examples">Code examples</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 id="contacts">Contacts</h2>
+        <ul>
+            <li>email: hejelipo@gmail.com</li>
+            <li>Discord: hejelipo</li>
+        </ul>
+        <h2 id="about_me">About Me</h2>
+        <p>I love learning new things all the time. I start programming from taking Python some classes
+            and enjoy this language very much. Learn some basics at Ruby and RoR.</p>
+        <h2 id="skills">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Ruby</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>GIT</li>
+        </ul>
+        <h2 id="code_examples">Code examples</h2>
+        <code>
+            n = input() <br>
+            # Donald Ervin Knuth ==> Knuth D.E. <br>
+            print(n[n.rfind(" ")+1:], n[:1] + "." + n[n.find(" ") + 1: n.find(" ") + 2] + ".")
+        </code>
+        <pre>
+function multiply(a, b){
+    return a * b;
+}
+        </pre>
+        <h2 id="education">Education</h2>
+        <ul>
+            <li>Kryvyi Rih National University </li>
+            <li>
+                <ul>
+                    <li>Building Construction degree</li>
+                </ul>
+            </li>
+        </ul>
+        <h2 id="languages">Languages</h2>
+        <ul>
+            <li>Russian - native</li>
+            <li>Ukrainian - native</li>
+            <li>English - A2</li>
+        </ul>
+    </main>
+    <footer>
+        <p>Created by: Andrew Johnson</p>
+        <p>Contact information: <a href="mailto:hejelipo@gmail.com">hejelipo@gmail.com</a></p>
+        <p><a href="https://github.com/hejelipo">GitHub</a></p>
+        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSschool" style="width: 100px;"></a>
+    </footer>
 </body>
+
 </html>
