@@ -33,4 +33,4 @@ function multiply(a, b){
 ## Languages
  - Russian - native
  - Ukrainian - native
- - English - A2
+ - English - (A2 - B1)
