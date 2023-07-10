@@ -1,6 +1,6 @@
-# Andrew Zinchenko
+# Andrew Johnson
 ## Contacts
-  * email: drewzinchenko@gmail.com
+  * email: hejelipo@gmail.com
   * Discord: hejelipo
 
 ## About Me
